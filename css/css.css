@@ -1,3 +1,135 @@
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+   } 
+   header,footer{
+    background-color: grey;
+    border : 1px solid grey;
+    margin: 5px solid grey;
+    padding: 8px solid grey ;
+   }   
+   body{
+    background-color: beige;
+   } 
+   a.Lien:hover{
+    color: red;
+   }
+   a.Lien:active{
+    color: green;
+   }
+   a.Lien:link{
+    color: white;
+   }
+   #service:hover{
+    color: green
+   }
+   h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+   } 
+   header,footer{
+    background-color: rgb(130, 189, 238);
+    border : 1px solid rgb(130, 189, 238);
+    margin: 5px solid rgb(130, 189, 238);
+    padding: 8px solid rgb(130, 189, 238);
+   }   
+   body{
+    background-color: beige;
+   } 
+   a.Lien:hover{
+    color: red;
+   }
+   a.Lien:active{
+    color: green;
+   }
+   a.Lien:link{
+    color: white;
+   }
 
+   h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+   } 
+   header,footer{
+    background-color: grey;
+    border : 1px solid grey;
+    margin: 5px solid grey;
+    padding: 8px solid grey ;
+   }   
+   body{
+    background-color: beige;
+   } 
+   a.Lien:hover{
+    color: red;
+   }
+   a.Lien:active{
+    color: green;
+   }
+   a.Lien:link{
+    color: white;
+   }
+   #stir :hover{
+       color: red
+   }
 
-background-image: radial-gradient(circle at 29% 55%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 4%,transparent 4%, transparent 44%,transparent 44%, transparent 100%),radial-gradient(circle at 85% 89%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 52%,transparent 52%, transparent 100%),radial-gradient(circle at 6% 90%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 53%,transparent 53%, transparent 64%,transparent 64%, transparent 100%),radial-gradient(circle at 35% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 6%,transparent 6%, transparent 98%,transparent 98%, transparent 100%),radial-gradient(circle at 56% 75%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 16%,transparent 16%, transparent 23%,transparent 23%, transparent 100%),radial-gradient(circle at 42% 0%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 3%,transparent 3%, transparent 26%,transparent 26%, transparent 100%),radial-gradient(circle at 29% 28%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 51%,transparent 51%, transparent 75%,transparent 75%, transparent 100%),radial-gradient(circle at 77% 21%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 35%,transparent 35%, transparent 55%,transparent 55%, transparent 100%),radial-gradient(circle at 65% 91%, hsla(329,0%,99%,0.05) 0%, hsla(329,0%,99%,0.05) 46%,transparent 46%, transparent 76%,transparent 76%, transparent 100%),linear-gradient(45deg, rgb(83, 91, 235),rgb(76, 11, 174));
+   h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+   } 
+   header,footer{
+    background-color: grey;
+    border : 1px solid grey;
+    margin: 5px solid grey;
+    padding: 8px solid grey ;
+   }   
+   body{
+    background-color: beige;
+   } 
+   a.Lien:hover{
+    color: red;
+   }
+   a.Lien:active{
+    color: green;
+   }
+   a.Lien:link{
+    color: white;
+   }
+   #Formation:hover{
+       color: green;
+   }
+   label {
+    display: inline-block;
+    width: 150px; /* Ajustez la largeur en fonction de vos besoins */
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+input[type="password"],
+input[type="date"] {
+    width: 250px; /* Ajustez la largeur en fonction de vos besoins */
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.email-button:hover {
+    background-color: #0056b3;
+}

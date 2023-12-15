@@ -4,36 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Personelle</title>
-    <style>
-   h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
-   } 
-   header,footer{
-    background-color: grey;
-    border : 1px solid grey;
-    margin: 5px solid grey;
-    padding: 8px solid grey ;
-   }   
-   body{
-    background-color: beige;
-   } 
-   a.Lien:hover{
-    color: red;
-   }
-   a.Lien:active{
-    color: green;
-   }
-   a.Lien:link{
-    color: white;
-   }
-   #service:hover{
-    color: green
-   }
-    </style>
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+  
     
 </head>
 <body>
+    <script src="../js/js.js"></script>
     <header class="header">
         <div id="top" class="navigation">
             <div class="navigation__wrapper wrapper--large">
@@ -41,9 +17,9 @@
                 <nav class="navigation__container">
                     <center>
                         <ul class="navigation__list">
-                           <a href="file:///C:/Users/ak301/Desktop/project/Formation.html" class="Lien">Formation</a>
-                            <a href="file:///C:/Users/ak301/Desktop/project/experience.html" class="Lien">experience</a>
-                            <a href="file:///C:/Users/ak301/Desktop/project/Contact.html" class="Lien">Contact</a>
+                           <a href="C:\Users\ak301\Desktop\project\projetWeb\html/Formation.html" class="Lien">Formation</a>
+                            <a href="C:\Users\ak301\Desktop\project\projetWeb\html/experience.html" class="Lien">experience</a>
+                            <a href="C:\Users\ak301\Desktop\project\projetWeb\html/Contact.html" class="Lien">Contact</a>
                         </ul>
                     </center>
                 </nav>
@@ -54,35 +30,56 @@
     </header>
     <section id="service" class="service">
         <h3>A propos de mois :</h3>
-        <center><img src="img/pdp.jpg" height="200" width="250"><br><br></center>
+        <center><img src="../img/pdp.jpg" height="200" width="250"><br><br></center>
         
         <a>Bonjour je suis Ahmed Khalil  étudiant en première année du cycle d'ingénieur en informatique. 
             J'ai une licence en électronique, électrotechnique et automatisme obtenue à la faculté des sciences de Bizerte en 2023. 
             J'ai effectué mon stage de fin d'études chez STIR, ce qui m'a aidé à me professionnaliser dans l'utilisation des automates programmables industriels</a>
             <hr>
            <br>
+           <form>
+            <h3>Donner votre avis</h3>
+            <div>
+                <label for="firstName">First Name* :</label>
+                <input type="text" id="firstName" name="firstName" minlength="3" required>
+            </div>
+            <div>
+                <label for="lastName">Last Name :</label>
+                <input type="text" id="lastName" name="lastName" minlength="3">
+            </div>
+            <div>
+                <label for="address">Comment :</label>
+                <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            </div>
+            
+            <div>
+                <a href="mailto:ak3011514@gmail.com"class="email-button"onclick="confirmEmail()">Envoyer</a>
+                
+            </div>
+        </form>
                <footer>
                 <section id="Contact">
                     <h3>contacter moi via : </h3>
                     <br>
                     <table>
                         <tr>
-                            <td><img src="img/in.png" alt="logo" height="30" width="30"></td>
+                            <td><img src="../img/in.png" alt="logo" height="30" width="30"></td>
                             <td><a href=https://www.linkedin.com/in/ahmed-khalil-153918249?fbclid=IwAR1lY1gFfGnFFb9Zz_XnKb3OM_bV6RV7PSdbrrQA0_1A0ijnX0UGBOH-bIs target="_blank" class="Lien">AhmedKhalil</a></td>
                         </tr>
                         <tr>
-                            <td><img src="img/fb.png" alt="logo" height="30" width="30"></td>
+                            <td><img src="../img/fb.png" alt="logo" height="30" width="30"></td>
                             <td><a href=https://www.facebook.com/profile.php?id=100006842014977&mibextid=ZbWKwL target="_blank" class="Lien">AhmedKhalil</a></td>
                         </tr>
                         
                         <tr>
-                            <td><img src="img/wt.jpg" alt="logo" height="30" width="30"></td>
+                            <td><img src="../img/wt.jpg" alt="logo" height="30" width="30"></td>
                             <td>+216 54 140 550
-        
+                    
                             </td>
                         </tr>
                     </table>
                     <hr>
+                    
         
                 </footer>   
                     
